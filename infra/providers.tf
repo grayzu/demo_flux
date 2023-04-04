@@ -13,6 +13,7 @@ terraform {
 
 provider "azure" {
   features {}
+  use_msi = true
 }
 
 provider "random" {}
